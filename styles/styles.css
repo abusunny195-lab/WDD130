@@ -1,64 +1,60 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-/* Header */
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Navigation */
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
+/* NAV */
+nav {
     background-color: #333;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    margin: 0 15px;
+    padding: 10px;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
     padding: 14px 10px;
     display: block;
+    text-decoration: none;
 }
 
-nav a:hover {
-    background-color: #111;
-}
-
-/* Main Content */
+/* MAIN */
 main {
-    padding: 20px;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
-section {
-    margin-bottom: 30px;
+/* H1 */
+h1 {
+    color: #333;
 }
 
-/* About Me Image */
-#about img {
-    border-radius: 50%; /* circular image */
-    display: block;
-    margin: 10px auto;
+/* MAIN IMG */
+main img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #000;
+    padding: 5px;
+    box-shadow: 0 0 10px #666;
 }
 
-/* Footer */
-footer {
-    text-align: center;
+/* ASIDE */
+aside {
+    width: 200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ASIDE IMG */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* PARAGRAPHS */
+p {
+    padding: 0;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
