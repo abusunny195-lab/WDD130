@@ -46,5 +46,8 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": true,
+  "cSpell.words": [
+    "Socialmedia"
+  ]
 }
